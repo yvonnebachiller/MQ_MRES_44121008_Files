@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="24666"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2017-11-29T04:21:05.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2017-11-29T09:07:35.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2017-11-29T09:07:35.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 10"/>
+			<date key="time:timestamp" value="2018-02-19T12:49:14.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 10"/>
+			<date key="time:timestamp" value="2018-02-19T12:49:14.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 10"/>
+			<date key="time:timestamp" value="2018-02-19T12:49:31.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-03-09T03:40:29.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-03-09T03:40:29.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 10"/>
+			<date key="time:timestamp" value="2018-03-12T12:12:23.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application to Host Completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 10"/>
+			<date key="time:timestamp" value="2018-04-01T08:03:12.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-05-16T11:08:43.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2018-11-23T11:42:39.000+11:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27004"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-17T04:25:23.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-24T07:11:07.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-24T07:11:07.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T02:41:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T02:41:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-30T07:11:42.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-30T07:11:42.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-20T11:53:38.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application to Host Completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-11-02T12:07:13.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-11-18T09:17:33.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-29T12:04:37.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27096"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-19T03:19:25.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-02T02:31:50.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-02T02:31:50.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T12:01:11.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-15T06:52:04.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-16T10:00:39.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-16T10:00:39.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-09-18T04:58:24.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-11-27T11:14:16.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-18T02:42:14.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-26T11:06:46.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27100"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-19T04:05:30.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T11:55:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T11:55:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T11:49:11.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-16T11:11:35.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-16T12:52:35.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-16T12:52:35.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-09-12T06:36:48.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-10-30T08:16:46.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-03T10:44:05.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27172"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-21T05:55:23.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T05:03:17.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T05:03:17.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:53:58.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:53:58.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-01T09:50:22.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-01T09:50:22.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-07T10:35:05.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-12-03T03:56:53.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2019-04-01T11:09:21.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-24T04:24:36.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27216"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-23T12:47:07.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-28T12:49:29.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-28T12:49:29.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T11:45:30.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T11:45:30.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-05T03:56:44.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-05T03:56:44.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-11T04:53:54.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2019-01-08T03:54:24.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-18T01:54:57.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-25T11:18:48.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27276"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-25T02:13:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T03:54:46.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T03:54:46.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:48:45.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:48:45.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T02:58:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T02:58:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-10-03T04:21:39.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application to Host Completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-11-02T03:43:45.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 10"/>
+			<date key="time:timestamp" value="2019-02-22T01:56:18.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-24T04:05:26.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27329"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-04-28T11:06:20.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-15T10:56:50.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-15T10:56:50.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T11:42:02.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-15T06:45:50.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-15T09:11:30.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-15T09:11:30.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-21T11:14:26.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-10-23T08:11:29.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-11T04:26:11.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-18T02:43:37.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-02T04:37:34.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27425"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-02T06:38:38.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-11T02:30:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-11T02:30:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T12:27:29.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-16T11:36:21.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-19T10:40:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-19T10:40:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-30T04:56:49.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application to Host Completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-11-30T04:04:27.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-12-02T08:25:01.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-22T10:48:04.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27460"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-04T03:44:20.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-06T05:18:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-06T05:18:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T11:59:17.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T11:59:17.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T11:23:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T11:23:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-18T05:16:12.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-10-22T09:03:51.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-29T10:19:23.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27494"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-07T12:48:47.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T09:11:36.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T09:11:36.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T11:32:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T11:32:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T10:56:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T10:56:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-27T02:35:29.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application to Host Completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-10-19T02:37:08.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 11"/>
+			<date key="time:timestamp" value="2018-12-16T09:46:33.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-25T10:55:31.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27533"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-09T12:28:05.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T05:22:48.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T05:22:48.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-23T03:05:41.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-23T03:05:41.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-07T03:17:48.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-10T01:29:46.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-10T01:29:46.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-10T09:06:32.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-20T11:53:38.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-11-18T09:18:04.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-29T12:05:14.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28758"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-21T04:39:01.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T03:55:32.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T03:55:32.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:28:10.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:28:10.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-30T07:21:33.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-30T07:21:33.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-10-03T10:50:47.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application to Host Completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-10-26T12:08:33.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2019-01-08T03:55:06.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-24T03:05:22.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28767"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-21T11:56:30.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-24T11:05:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-24T11:05:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-08-22T02:54:24.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-24T05:46:47.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-24T05:46:47.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-09-04T11:35:51.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application to Host Completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-09-27T10:08:27.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-10-19T04:08:18.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-30T03:04:44.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28834"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-23T10:52:32.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-12T11:11:45.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-12T11:11:45.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T12:01:01.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-15T06:52:04.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-15T08:27:16.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-15T08:27:16.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-09-18T04:58:02.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2019-01-10T08:21:52.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-18T02:38:35.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-18T02:40:12.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-26T11:03:13.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29000"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-29T02:35:57.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T10:14:43.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T10:14:43.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:58:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:58:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-03T03:51:00.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-03T03:51:00.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-10-04T05:04:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2019-02-03T08:10:42.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-24T04:53:05.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29071"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-05-31T04:34:02.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T10:27:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T10:27:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T12:36:58.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-16T11:36:21.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-16T12:47:28.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-16T12:47:29.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-29T03:31:37.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2019-01-14T08:18:53.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-05-22T11:41:36.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-22T11:15:38.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29083"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-01T02:32:02.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T12:32:11.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T12:32:11.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:59:27.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:59:27.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T08:57:05.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T08:57:05.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-10-04T05:04:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2019-02-03T08:06:32.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-24T04:53:14.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29214"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-06T12:16:50.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-08-22T03:41:26.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-05-23T02:18:24.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-30T08:58:54.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29226"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-07T12:01:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T03:39:24.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T03:39:24.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T11:55:49.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-16T09:10:39.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-16T09:10:39.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-16T11:21:40.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-10-02T12:38:02.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2019-01-14T08:19:29.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-03T12:03:13.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29246"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-07T08:38:50.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T03:43:34.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T03:43:34.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-08-22T03:06:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-24T07:07:31.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-24T07:07:31.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-08-30T01:20:49.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application to Host Completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 1"/>
+			<date key="time:timestamp" value="2018-09-18T05:57:12.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-11T09:09:45.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-05-23T02:18:24.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-31T10:51:51.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29290"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-08T04:12:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-13T04:40:32.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-13T04:40:32.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Rejected - not endorsed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 7"/>
+			<date key="time:timestamp" value="2018-07-24T04:40:45.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-21T02:58:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-09-05T04:32:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-09-05T04:32:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-16T03:12:04.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-16T03:12:04.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-10-21T08:23:48.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-18T01:55:36.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-06-26T10:22:07.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29327"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-09T07:17:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T11:21:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T11:21:52.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T10:43:49.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-15T06:52:04.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-17T02:49:06.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-17T02:49:06.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-21T10:54:29.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-12-04T08:35:42.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-02T03:26:14.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29366"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-11T03:14:21.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T05:36:01.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-15T05:36:01.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-08T12:45:36.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-16T10:54:18.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-20T11:40:04.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-20T11:40:04.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-09-19T12:08:59.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-05-23T02:18:24.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-24T02:31:17.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-08-01T10:02:42.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29590"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T09:41:00.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T11:06:19.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-06-14T11:06:19.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:59:55.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-08-22T10:59:55.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T10:27:06.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-31T10:27:06.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-10-04T05:04:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2019-02-03T08:09:54.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-24T04:53:21.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="30399"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-13T07:47:38.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-13T07:47:38.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-13T12:03:49.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Conditional Nomination"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-06T03:13:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-06T03:13:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-08T05:46:07.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-08T05:46:07.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 9"/>
+			<date key="time:timestamp" value="2018-09-11T03:00:53.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2018-10-31T02:31:02.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-04-02T01:43:03.000+11:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-22T11:58:17.000+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="30595"/>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application created"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-17T11:05:38.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-19T07:21:35.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Application Submitted"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-08-19T07:21:35.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Conditional Nomination"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-30T12:13:37.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-08-30T12:13:37.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-02T09:13:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Applicant has committed to the program"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Student"/>
+			<date key="time:timestamp" value="2018-09-02T09:13:56.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-09-26T10:55:40.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Accepted by Host University"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Adviser 5"/>
+			<date key="time:timestamp" value="2018-10-02T12:51:14.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Nominated to Exchange"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 1"/>
+			<date key="time:timestamp" value="2019-07-02T03:39:09.000+10:00"/>
+		</event>
+		<event>
+			<string key="Term" value="Year (Sem 1 &amp; Sem 2)"/>
+			<string key="concept:name" value="Assign Preferred Host Insitution"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="Year" value="2019"/>
+			<string key="resource" value="Coordinator 4"/>
+			<date key="time:timestamp" value="2019-08-01T02:43:13.000+10:00"/>
+		</event>
+	</trace>
+</log>
